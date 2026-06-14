@@ -1,0 +1,14 @@
+- [Quickstart Doc Summary](ref_quickstart.md) — source doc for "first-session" lesson; covers launch, prompts, diffs, git, and tips from code.claude.com/docs/en/quickstart.md
+- [Installation docs reference](ref-installation-docs.md) — install commands, requirements, auth steps, and gotchas from the setup/troubleshoot pages
+- [Project Content Model](project-content-model.md) — Block union type, lesson skeleton, and output format conventions for the claude-code-guide app
+- [Claude Code Overview Source](claude-code-overview-source.md) — Canonical facts, capabilities, surfaces, and CLI commands from the official overview and quickstart docs
+- [MCP Reference Docs](ref-mcp-docs.md) — CLI commands, transports (stdio/http/sse/ws), scopes, resources, security note, and beginner pitfalls from mcp.md + mcp-quickstart.md
+- [Slash Commands & Skills Source](ref-slash-commands.md) — built-in commands, custom skill file paths, SKILL.md frontmatter, argument substitution, and dynamic context injection
+- [Skills Docs Reference](ref-skills-docs.md) — Full anatomy, invocation model, where skills live, pitfalls; from code.claude.com/docs/en/skills.md
+- [Memory & CLAUDE.md Source](ref-memory-claude-md.md) — file locations/load order, # shortcut, @path imports, auto memory, pitfalls, and what to put in CLAUDE.md
+- [Subagents Reference Docs](ref-subagents-docs.md) — built-ins, YAML frontmatter fields, /agents command, file scopes, parallel patterns, and comparison with agent view/teams/workflows
+- [Hooks Docs Reference](ref-hooks-docs.md) — JSON structure, event names, exit codes, matcher patterns, and pitfalls from code.claude.com/docs/en/hooks.md
+- [Settings Docs Reference](ref-settings-docs.md) — file locations/precedence, permissions (allow/deny/ask), key fields, validation behavior, and pitfalls from settings.md
+- [Project Setup Reference](ref-project-setup.md) — /init, .claude/ layout, CLAUDE.md dos/don'ts, permissions, hooks for guardrails, tuning tips; from memory.md + best-practices.md
+- [Workflows Docs Reference](ref-workflows-docs.md) — plan mode, Shift+Tab, --continue/--resume, /clear, test-driven loop, ultracode keyword, /deep-research, dynamic workflows
+- [Quickstart Walkthrough Reference](ref-quickstart-walkthrough.md) — full feature-build loop, shell/session commands table, PR workflow, and beginner tips from quickstart.md

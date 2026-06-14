@@ -32,17 +32,17 @@ and a structure that Phases 2 & 3 plug into cleanly.
 Goal: replace placeholder bodies with practical, understandable lessons drawn from the
 actual Claude Code docs.
 
-- [ ] Read the official Claude Code docs; extract the most useful, practical concepts
-- [ ] Decide content pipeline: structured `Block[]` (current) vs MDX (`BlockRenderer` is
-      the swap seam)
-- [ ] Write real lessons: Getting Started (intro, installation, first session)
-- [ ] Write real lessons: Core Concepts (slash commands, MCP, skills, subagents, hooks,
+- [x] Read the official Claude Code docs; extract the most useful, practical concepts
+- [x] Decide content pipeline: structured `Block[]` (current) vs MDX (`BlockRenderer` is
+      the swap seam) — kept `Block[]`; no renderer changes needed
+- [x] Write real lessons: Getting Started (intro, installation, first session)
+- [x] Write real lessons: Core Concepts (slash commands, MCP, skills, subagents, hooks,
       memory/CLAUDE.md, configuration)
-- [ ] Write real lessons: Best Practices (prompting, project setup, workflows)
-- [ ] Write the end-to-end practical walkthrough
+- [x] Write real lessons: Best Practices (prompting, project setup, workflows)
+- [x] Write the end-to-end practical walkthrough
+- [x] Per-lesson "key takeaways" + links to official docs (closing `tip` callout per lesson)
 - [ ] Real syntax highlighting for code blocks (e.g. Shiki)
 - [ ] Search across lessons
-- [ ] Per-lesson "key takeaways" + links to official docs
 
 ## Phase 3 — Interactivity 🔮 (later)
 
